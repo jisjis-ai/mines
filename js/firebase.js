@@ -1,13 +1,13 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDRkP87Vi5Kp13juPztcwfX0nTBs117kpo",
-    authDomain: "jogo-do-bixo-ec257.firebaseapp.com",
-    databaseURL: "https://jogo-do-bixo-ec257-default-rtdb.firebaseio.com",
-    projectId: "jogo-do-bixo-ec257",
-    storageBucket: "jogo-do-bixo-ec257.appspot.com",
-    messagingSenderId: "61426893659",
-    appId: "1:61426893659:web:4367509a5d5523da64107e",
-    measurementId: "G-TV53W4KZ05"
-  };
+  apiKey: "AIzaSyALdh9TVqGkmPYI-706sNHlVmJF3sIWjMU",
+  authDomain: "mt-bot-hackerbets.firebaseapp.com",
+  databaseURL: "https://mt-bot-hackerbets-default-rtdb.firebaseio.com",
+  projectId: "mt-bot-hackerbets",
+  storageBucket: "mt-bot-hackerbets.appspot.com",
+  messagingSenderId: "1034840192639",
+  appId: "1:1034840192639:web:c76ab53bb51de10d71f14a",
+  measurementId: "G-6J9WPV50Y8"
+};
 
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
