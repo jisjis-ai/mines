@@ -1,0 +1,51 @@
+
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .card-input {
+      margin-bottom: 10px;
+    }
+    .send-button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+    }
+    .grid-item {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+    }
+    .draw-button {color: ;
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+    }

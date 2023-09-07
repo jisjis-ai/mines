@@ -1,0 +1,89 @@
+.hide {
+  display: none;
+}
+
+.table-data {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-data th,
+.table-data td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-data th {
+  background-color: #f2f2f2;
+}
+
+.table-data tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.order {
+  margin-top: 20px;
+}
+
+.order .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.order .head h3 {
+  margin: 0;
+}
+
+.order .head i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.order table {
+  width: 100%;
+}
+
+.order table td {
+  vertical-align: middle;
+}
+
+.order table img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.order table p {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.order table .status {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.order table .status.completed {
+  color: #28a745;
+  background-color: #c3e6cb;
+}
+
+.order table .status.pending {
+  color: #ffc107;
+  background-color: #ffeeba;
+}
+
+.order table .status.process {
+  color: #007bff;
+  background-color: #cce5ff;
+}

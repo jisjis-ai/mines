@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_login_cadastro.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <body style="background-image: url('images/imagem.jpg');">
+    <title>Ludiflex | Cadastro</title>
+</head>
+<body>
+   <div class="box">
+    <div class="container">
+
+        <div class="top">
+            <span>Ainda não possui uma conta?</span>
+            <header>Cadastro</header>
+        </div>
+
+        <div class="input-field">
+            <input type="text" class="input" placeholder="Seu nome" id="nomeInput">
+            <i class='bx bx-user' ></i>
+        </div>
+
+        <div class="input-field">
+            <input type="text" class="input" placeholder="Email do usuário" id="emailInput">
+            <i class='bx bx-envelope'></i>
+        </div>
+
+        <div class="input-field">
+            <input type="password" class="input" placeholder="Senha" id="senhaInput">
+            <i class='bx bx-lock-alt'></i>
+        </div>
+
+        <div class="input-field">
+            <input type="submit" class="submit" value="Cadastrar" id="cadastrarBtn">
+        </div>
+
+        <div class="two-col">
+            <div class="two">
+                <label onclick="window.location.href = 'login.html'"><a href="#">Já possui uma conta?</a></label>
+            </div>
+        </div>
+    </div>
+</div> 
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>  
+  <script src="js/firebase.js"></script>
+  <script src="js/script_cadastro.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_login_cadastro.css">
+    <style>
+        body {
+            background-image: url('images/imagem.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .box {
+            width: 100%;
+            max-width: 400px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .box h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .box header {
+            color: #000;
+            font-size: 30px;
+            padding: 10px 0;
+        }
+
+        .input-field {
+            margin-bottom: 20px;
+        }
+
+        .input-field .input {
+            height: 45px;
+            width: 100%;
+            border: none;
+            border-radius: 30px;
+            color: #333;
+            font-size: 15px;
+            padding: 0 20px;
+            outline: none;
+        }
+
+        .input-field i {
+            position: relative;
+            top: -33px;
+            left: 17px;
+            color: #333;
+        }
+
+        .input-field input::placeholder {
+            color: #333;
+        }
+
+        .submit {
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            height: 45px;
+            width: 100%;
+            color: #fff;
+            background: #333;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .submit:hover {
+            background: #222;
+        }
+
+        .two-col {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: #333;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .two a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+    <title>Login</title>
+</head>
+<body>
+   <div class="box">
+    <div class="container">
+
+        <div class="top">
+            <h2>Mines Hack ElephantBet</h2>
+            <header>Mines Hack</header>
+        </div>
+
+        <div class="input-field">
+            <input type="text" class="input" placeholder="Email do usuário" id="mail">
+            <i class='bx bx-user'></i>
+        </div>
+
+        <div class="input-field">
+            <input type="password" class="input" placeholder="Senha" id="pass">
+            <i class='bx bx-lock-alt'></i>
+        </div>
+
+        <div class="input-field">
+            <input type="submit" class="submit" value="Login" id="cadastrarBtn">
+        </div>
+
+        <div class="two-col">
+            <div class="two">
+                <label onclick="window.location.href = 'Pagamentos.html'"><a href="#">criar conta</a></label>
+            </div>
+        </div>
+    </div>
+</div>  
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>  
+<script src="js/firebase.js"></script>
+<script src="js/script_login.js"></script>
+</body>
+</html>
